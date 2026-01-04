@@ -1,0 +1,17 @@
+[project]
+name = "py_hyperpolyglot"
+version = "0.1.0"
+dependencies = ["pyarrow>=10.0.0"]
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools", "setuptools-rust"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages]
+find = { where = ["src/python"] }
+
+[[tool.setuptools-rust.ext-modules]]
+target = "py_hyperpolyglot._py_hyperpolyglot"
+path = "Cargo.toml"
+debug = false

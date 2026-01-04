@@ -265,7 +265,7 @@ pub fn get_language_breakdown<P: AsRef<Path>>(
     language_breakdown
 }
 
-fn filter_candidates(
+pub fn filter_candidates(
     previous_candidates: Vec<&'static str>,
     new_candidates: Vec<&'static str>,
 ) -> Vec<&'static str> {

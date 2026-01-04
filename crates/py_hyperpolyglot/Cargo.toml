@@ -1,0 +1,15 @@
+[package]
+name = "py_hyperpolyglot"
+version = "0.1.0"
+edition = "2021"
+description = "Python bindings for hyperpolyglot language detection with PyArrow support"
+
+[lib]
+name = "_py_hyperpolyglot"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.22", features = ["extension-module"] }
+hyperpolyglot = { path = "../.." }
+
+
