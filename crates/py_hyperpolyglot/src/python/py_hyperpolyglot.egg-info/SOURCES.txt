@@ -1,7 +1,0 @@
-pyproject.toml
-src/python/py_hyperpolyglot/__init__.py
-src/python/py_hyperpolyglot.egg-info/PKG-INFO
-src/python/py_hyperpolyglot.egg-info/SOURCES.txt
-src/python/py_hyperpolyglot.egg-info/dependency_links.txt
-src/python/py_hyperpolyglot.egg-info/requires.txt
-src/python/py_hyperpolyglot.egg-info/top_level.txt
